@@ -1,0 +1,41 @@
+body{
+    background-color: lavender;
+}
+
+.Button{
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+}
+.b{
+    text-align: center;
+    color: #628395;
+}
+.app{
+    margin-left: 3.5rem;
+  }
+.card{
+    background: #512D6D;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  color: #EEEEEE;
+}
+
+.card h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    text-shadow: 0;
+  }
+  .card h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-shadow: 0;
+  }
+  .user{
+      text-shadow: 0;
+  }
