@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background: url(./Image/background1.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.logo {
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.menu a {
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.text {
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  right: 55%;
+}
+
+#button {
+  padding-top: 40px;
+}
+
+.button1 {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #ff7600;
+}
+
+.button2 {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #185adb;
+}
+
+.box {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row p {
+  width: 30%;
+}
+
+.fas {
+  font-size: 10rem;
+}
+
+.box1 {
+  display: flex;
+  padding-top: 5%;
+  margin-left: 15%;
+}
+
+.column {
+  margin: 60px;
+  width: 18%;
+}
+
+.column h3,
+p {
+  padding-top: 20px;
+}
+
+.far {
+  color: #fff;
+  background: #185adb;
+  font-size: 50px;
+  padding: 30px 30px;
+  border-radius: 100px;
+}
+
+.project{
+  text-align: center;
+}
+
+.projects{
+width: 100%;
+} 
+
+.all{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+}
+
+img{
+  width: 100%;
+  padding: 5px;
+  height: 30vh;
+}
+
+.img-text{
+  border: 1px solid lightblue;
+  
+}
+
+.pricing-table{
+    margin-top: 45px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+    padding-bottom: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.pricing{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #61497B;
+  color: #ffffff;
+}
+
+.pricing h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.projects{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #64C9CF;
+}
+.all{
+    margin-top: 45px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.img-text{
+  border: 0;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: black;
+}
